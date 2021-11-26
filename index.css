@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  box-sizing: border-box;
+}
+nav{
+  background-color: whitesmoke;
+}
+.App{
+  background-color: whitesmoke;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  margin: 20px 0 0 35px;
+}
+.navbar h1 {
+  color: black;
+  font-weight: 1500px;
+}
+.navbar .links {
+  margin-top: 30px;
+  font-weight: bold;
+  color: black!important;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 6px;
+  color: black!important;
+}
+.navbar a:last-child {
+  margin-left: 20px;
+}
+.navbar a:hover {
+  background-color: gray!important;
+  color: black !important;
+}
+.content {
+  width: 950px !important;
+  margin-left: 30px;
+  background-color: whitesmoke;
+}
+div.card-header{
+  background-color: unset;
+  border: unset;
+}
+/*div.card-img-container{
+  background-position: center;
+  background-size: contain;
+} */
+ 
+div.card{
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 0 0 5px 10px;
+  border-radius: 15px !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+div.card-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  }
+  div.card-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: black;
+    opacity: 0.6; 
+    }
+    div.sidebar{
+        width: 26%;
+        background-color: white;
+        position: fixed;
+        border-radius: 25px;
+        top: 1.6rem;
+        right: 0.5rem; 
+        box-shadow: 5px 5px solid black;
+      }
+    
+
+    
