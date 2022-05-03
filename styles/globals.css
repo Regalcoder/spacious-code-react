@@ -1,16 +1,91 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+
+/* Navbar component styling  */
+
+.headerFlex{
+  display: flex;
+  gap: 400px;
+  background-color: #ece7e7;
+  width: 100%;
+  height: 30%;
+  border: 0.01px solid #ece7e7;
+  margin: 0, 0;
+  border-radius: 5px;
 }
 
-* {
-  box-sizing: border-box;
+.logoStyle{
+  width: 10%;
+  margin: auto;
+}
+
+.buttonContainer{
+  width: 25%;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  height: auto;
+}
+.button1{
+  background-color: white;
+  border: 0.1px solid white;
+  border-radius: 12px;
+}
+
+.vector{
+  width: 8px;
+  height: auto;
+  margin-bottom: 8px;
+  }
+
+.button1:hover,
+.button1:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    background-color: pink;
+  }
+
+.buttonContainer2{
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+.ethLogo{
+  width: auto;
+  height: 12px;
+  margin-bottom: 3px;
+}
+
+.downButton{
+  width: 5px;
+  height: auto;
+  
+}
+
+.ethButton{
+  background-color: white;
+  border-radius: 12px;
+  border: 0.1px solid white;
+  margin-right: 3px;
+}
+
+.connectButton{
+  background-color: pink;
+  color: #FA4D17;
+  border: 0.1px solid pink;
+  border-radius: 12px;
+  margin-right: 1px;
+}
+
+.moreButton{
+  background-color: white;
+  border-radius: 10px;
+  border: 0.1px solid white;
+  font-weight: bolder;
+  margin-bottom: 8px;
+ 
 }
