@@ -3,9 +3,7 @@ import NavBar from '../component/defi/NavBar';
 const DeFiLayout = ({ children }) => {
     return ( 
         <>
-        <div>
-            <NavBar/>
-        </div>
+         <NavBar/>
         <div>
         { children }
         </div>
